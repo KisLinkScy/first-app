@@ -16,30 +16,3 @@
   max-width: 1300px;
   padding: 2px;
 }
-
-.header{
-  position: relative;
-  grid-area: header;
-  background-color: aqua;
-  margin-bottom: 10px;
-}
- .header img{
-  position: absolute;
-  background-size: contain;
-  width: 150px;
- }
-
- .nav{
-  grid-area: nav;
-  background-color: aqua;
- }
- .cont{
-  margin-left: 10px;
-  grid-area: cont;
-  background-color: darkgray;
- }
- .footer{
-  margin-top: 10px;
-  grid-area: footer;
-  background-color: aqua;
- }

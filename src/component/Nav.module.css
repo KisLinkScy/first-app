@@ -1,0 +1,14 @@
+.nav {
+    grid-area: nav;
+    background-color: aqua;
+}
+
+.item{
+    color: white;
+    font-size: 18px;
+}
+
+.item.active{
+    color: gold;
+    font-size: 24px;
+}

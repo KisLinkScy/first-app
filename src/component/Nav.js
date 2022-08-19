@@ -1,14 +1,25 @@
 import React from "react";
+import mNav from './Nav.module.css'
 
 const Nav = () => {
     return (
-        <div className="nav">
+        <div className={mNav.nav}>
             Novigation
-            <a href="#">Profile</a>
-            <a href="#">News</a>
-            <a href="#">Musiic</a>
-            <a href="#">Pichers</a>
-            <a href="#">Setting</a>
+            <div className={`${mNav.item} ${mNav.active}`}>
+                <a>Profile</a>
+            </div>
+            <div className={mNav.item}>
+                <a>News</a>
+            </div>
+            <div className={mNav.item}>
+                <a>Musiic</a>
+            </div>
+            <div className={mNav.item}>
+                <a>Pichers</a>
+            </div>
+            <div className={mNav.item}>
+                <a>Setting</a>
+            </div>
         </div>
     )
 }

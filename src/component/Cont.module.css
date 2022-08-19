@@ -1,0 +1,11 @@
+.cont {
+    margin-left: 10px;
+    grid-area: cont;
+    background-color: darkgray;
+}
+
+.item{
+    color: chartreuse ;
+    font-size: 18px;
+}
+
