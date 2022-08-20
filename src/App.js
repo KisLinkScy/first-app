@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import Cont from './component/Cont';
-import Footer from './component/Footer';
-import Header from './component/Header';
-import Nav from './component/Nav';
+import Cont from './component/Cont/Cont';
+import Footer from './component/Footer/Footer';
+import Header from './component/Header/Header';
+import Nav from './component/Navbar/Nav';
 
 function App() {
   return (
