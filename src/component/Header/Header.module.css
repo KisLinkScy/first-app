@@ -1,0 +1,12 @@
+.header {
+    position: relative;
+    grid-area: header;
+    background-color: aqua;
+    margin-bottom: 10px;
+}
+
+.header img {
+    position: absolute;
+    background-size: contain;
+    width: 150px;
+}
