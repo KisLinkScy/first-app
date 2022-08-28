@@ -1,7 +1,16 @@
-.cont {
-    margin-left: 10px;
-    grid-area: cont;
-    background-color: darkgray;
+.cont{
+    font-size: 20px;
+    border-radius: 15px;
 }
-
-
+.cont p{
+    font-size: 30px;
+    padding-left: 10px;
+    margin: 0;
+}
+.cont img{
+    width: 300px;
+    margin-left: 5px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.378);
+    border-radius: 5px;
+    border: 1px solid rgb(135, 135, 135);
+}

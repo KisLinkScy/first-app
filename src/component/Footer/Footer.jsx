@@ -3,7 +3,7 @@ import mFooter from './Footer.module.css'
 
 const Footer = () => {
     return (
-        <div className="footer">
+        <div className={mFooter.footer}>
             Footer
         </div>
     )

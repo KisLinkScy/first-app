@@ -1,12 +1,38 @@
 .header {
-    position: relative;
     grid-area: header;
     background-color: aqua;
     margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.378);
+    border: 1px solid rgb(214, 213, 213);
+    border-radius: 5px;
+    /*background-image: url('https://img2.fonwall.ru/o/tx/lake-femund-norway-panorama.jpg?route=mid&h=750');
+    background-size: cover;
+    background-position-y: 59%;*/
+    user-select: none;
+    
+}
+.headerCon{
+    position: relative;
 }
 
+.header p{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+    color: rgb(104, 102, 102);
+}
+.header pre{
+    font-size: 17px;
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+    color: rgb(104, 102, 102);
+}
 .header img {
     position: absolute;
-    background-size: contain;
-    width: 150px;
+    display: inline-block;
+    max-width: 120px;
+    margin: 0;
 }

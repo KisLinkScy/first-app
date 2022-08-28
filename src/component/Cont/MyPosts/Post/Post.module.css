@@ -1,8 +1,26 @@
 .item{
-    color: chartreuse ;
-    font-size: 18px;
+    color: rgb(0, 60, 255) ;
+    font-size: 20px;
+    margin-bottom: 0px;
+    background-color: bisque;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.378);
+    padding-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(165, 165, 165);
 }
 
 .item img{
     width: 60px;
+    margin: 5px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.378);
+    padding-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(165, 165, 165);
+}
+
+.span{
+    color: red;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-weight: bold;
 }

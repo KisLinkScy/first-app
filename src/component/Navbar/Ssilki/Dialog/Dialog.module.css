@@ -1,0 +1,35 @@
+.dialog{
+    font-size: 24px;
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogs a{
+    text-decoration: none;
+}
+
+.dialogsItems{
+    padding: 10px;
+}
+
+.dialogsItems .active{
+    color: rgb(102, 205, 0);
+    text-decoration: none;
+}
+
+.item{
+    font-weight: bold;
+    color: rgb(104, 102, 102);
+}
+.item :hover{
+    color: gold;
+    font-size: 30px;
+    font-weight: bold;
+}
+.messages{
+    padding: 10px;
+}
+
+.message{
+
+}
